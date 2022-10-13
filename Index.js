@@ -1,3 +1,6 @@
+function addTwoNumbers(firstNumber, secondNumber) {
+    let sum = firstNumber + secondNumber;
+    console.log (sum);
 let myname = prompt("what is your name");
 document.write("welcome " + myname)
 if (myname == "Christy") {
@@ -17,3 +20,8 @@ if (guess == 7) {
 if (guess !== 7) { alert("That's not it!") }
 document.write("Who sent you?")
 
+function ask ("Do you like cats?")
+if (guess == yes)
+{alert("Let's be friends")}
+if (guess !== yes) {alert("That's too bad!")}
+}
