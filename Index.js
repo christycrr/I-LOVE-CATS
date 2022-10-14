@@ -22,12 +22,23 @@ document.write("Who sent you?")
 
 function ask (){
 let something=prompt ("Do you like cats?")
-if (something == yes)
+if (something == "yes")
 {alert("Let's be friends")}
-if (something !== yes) {alert("That's too bad!")}
+if (something !== "yes") {alert("That's too bad!")}
 }
 ask (); 
 
 function square(number) {
     return number * number;
   }
+  function rateMyPage()
+  {let rating = prompt("What rating would you give my page? 1-10")
+    for (let i = 0; i< rating; i++)
+{document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1P-SJxnSrDtfhtW4sjJkGTEZHsl89iBPzUQ&usqp=CAU' alt='bright shiny yellow star' />")}}
+rateMyPage ()
+let userGuess = prompt("What is Christy's favorite color:");
+
+  while (userGuess !== "pink") {
+    userGuess = prompt("Wrong! Guess again!!!");
+  }
+  console.log("do you even know me?")
